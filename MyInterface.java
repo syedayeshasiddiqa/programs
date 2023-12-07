@@ -18,3 +18,11 @@ class CivilEngineer implements MyInterface{
         System.out.println("Civil Eng 1's way of constructing a lawn!");
         
     }
+}
+class Test{
+    public static void main(String[] args){
+       CivilEngineer ce = new CivilEngineer();
+       ce.constructHome();
+       ce.constructLawn();
+    }
+}
